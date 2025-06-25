@@ -1,17 +1,22 @@
 # 💬 Simple Chat App
 
 Real-time chat app with Node.js + Socket.io
+as of 06/25/2025
 
-## ✨ Features
-- Instant messaging
-- Online users list
-- Login/signup
-- Works on phone & computer
+Key Features Implemented:
 
-## 🚀 Quick Start
+User Authentication: Signup, login, logout with JWT & protected routes
 
-1. **Install**
-```bash
-git clone https://github.com/viidxmo/chat.git
-cd chat-app
-npm install
+Messaging System:
+
+Send/receive text & image messages
+
+Conversation history & sidebar user list
+
+Database: MongoDB models for users/messages
+
+Security: Password hashing, route protection
+
+Tech Stack: Node.js, Express, MongoDB, Socket.io, React
+
+Status: Core functionality complete. Testing in progress.
